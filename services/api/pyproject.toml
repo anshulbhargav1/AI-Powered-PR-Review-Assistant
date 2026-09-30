@@ -1,0 +1,24 @@
+[project]
+name = "pr-review-dashboard-api"
+version = "0.1.0"
+description = "Read-only FastAPI dashboard API over Postgres review data"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.1",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "pr-review-shared",
+]
+
+[tool.uv.sources]
+pr-review-shared = { path = "../../libs/shared", editable = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]

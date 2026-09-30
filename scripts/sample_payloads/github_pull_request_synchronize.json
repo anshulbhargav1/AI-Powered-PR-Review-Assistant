@@ -1,0 +1,16 @@
+{
+  "action": "synchronize",
+  "pull_request": {
+    "number": 42,
+    "title": "Add order export endpoint",
+    "html_url": "https://github.com/octocat/demo-repo/pull/42",
+    "draft": false,
+    "user": { "login": "octocat" },
+    "head": { "sha": "bee9f00d1234567890abcdef1234567890abcdef", "ref": "feature/order-export" },
+    "base": { "sha": "def456abc123def456abc123def456abc123def4", "ref": "main" }
+  },
+  "repository": {
+    "id": 123456,
+    "full_name": "octocat/demo-repo"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "object_kind": "merge_request",
+  "user": { "username": "octocat" },
+  "project": {
+    "id": 987654,
+    "path_with_namespace": "octocat-group/demo-project"
+  },
+  "object_attributes": {
+    "iid": 17,
+    "title": "Add order export endpoint",
+    "action": "update",
+    "source_branch": "feature/order-export",
+    "target_branch": "main",
+    "url": "https://gitlab.com/octocat-group/demo-project/-/merge_requests/17",
+    "work_in_progress": false,
+    "last_commit": { "id": "bee9f00d1234567890abcdef1234567890abcdef" },
+    "diff_refs": {
+      "base_sha": "def456abc123def456abc123def456abc123def4",
+      "head_sha": "bee9f00d1234567890abcdef1234567890abcdef"
+    }
+  }
+}
